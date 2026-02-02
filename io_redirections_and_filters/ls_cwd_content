@@ -1,0 +1,22 @@
+total 76
+drwxr-xr-x 2 root root 4096 Feb  2 07:54 .
+drwxr-xr-x 7 root root  146 Jan 30 11:33 ..
+-rwxr-xr-x 1 root root   32 Jan 30 10:43 0-hello_world
+-rwxr-xr-x 1 root root   48 Jan 30 11:03 10-no_more_js
+-rwxr-xr-x 1 root root   56 Jan 30 11:08 11-directories
+-rwxr-xr-x 1 root root   31 Jan 30 11:27 12-newest_files
+-rwxr-xr-x 1 root root   27 Jan 30 11:28 13-unique
+-rwxr-xr-x 1 root root   36 Jan 30 11:29 14-findthatword
+-rwxr-xr-x 1 root root   28 Jan 30 10:47 1-confused_smiley
+-rwxr-xr-x 1 root root   28 Jan 30 10:49 2-hellofile
+-rwxr-xr-x 1 root root   39 Jan 30 10:50 3-twofiles
+-rwxr-xr-x 1 root root   35 Jan 30 10:51 4-lastlines
+-rwxr-xr-x 1 root root   35 Jan 30 10:52 5-firstlines
+-rwxr-xr-x 1 root root   40 Jan 30 10:54 6-third_line
+-rwxr-xr-x 1 root root   77 Feb  2 07:52 7-file
+-rwxr-xr-x 1 root root   36 Feb  2 07:53 8-cwd_state
+-rwxr-xr-x 1 root root   37 Jan 30 11:02 9-duplicate_last_line
+-rw-r--r-- 1 root root   38 Feb  2 07:52 \*\\'Best
+-rw-r--r-- 1 root root   12 Feb  2 07:50 \*\'"Best School"\'\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 root root    0 Feb  2 07:54 ls_cwd_content
+-rw-r--r-- 1 root root   20 Jan 30 10:42 README.md
