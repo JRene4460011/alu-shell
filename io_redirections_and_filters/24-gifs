@@ -1,2 +1,2 @@
 #!/bin/bash
-for f in $(find . -type f -iname "*.gif"); do echo "${f##*/}" | { read name; echo "${name%.gif}"; }; done | sort -f
+find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d. -f2- | rev | sort -f
