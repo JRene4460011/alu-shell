@@ -4,15 +4,15 @@
 SCHOOL_FILE="school"
 
 if [ -e "$SCHOOL_FILE" ] ; then
-	echo "$SCHOOL_FILE file exists"
+	echo "school file exists"
 	if [ -s "$SCHOOL_FILE" ] ; then
-		echo "$SCHOOL_FILE file is not empty"
+		echo "school file is not empty"
 	else
-		echo "$SCHOOL_FILE file is empty"
+		echo "school file is empty"
 	fi
 	if [ -f "$SCHOOL_FILE" ] ; then
-		echo "$SCHOOL_FILE file is a regular file"
+		echo "school file is a regular file"
 	fi
 else	
-	echo "$SCHOOL_FILE file does not exists"
+	echo "school file does not exists"
 fi
