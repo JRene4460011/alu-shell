@@ -1,13 +1,5 @@
 #!/usr/bin/env bash
 # Digging the data
 
-awk '
-{
-    key = $1 " " $9
-    count[key]++
-}
-END {
-    for (k in count)
-        print count[k], k
-}
-' apache-access.log | sort -nr
+awk '{ print $1, $9 }' apache-access.log | sort | uniq -c | sort -nr
+
