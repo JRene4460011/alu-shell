@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# traping 3 signals
 
 PIDFILE="/var/run/myscript.pid"
 echo $$ > "$PIDFILE"
